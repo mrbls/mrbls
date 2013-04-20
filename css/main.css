@@ -116,7 +116,29 @@ body{
 		background-color:#ffffff;
 		z-index: 1;
 	}
+
+	#aboutcont_01{
+        /*
+		position:relative;
+        */
+		background-color:#8ed1ec;
+		z-index: 1;
+	}
 	
+	.arrow{
+		position:absolute;
+		padding: 300px 0;
+	z-index:99999;
+	}
+
+	#arrow_l{
+		left:30px;
+	}
+
+	#arrow_r{
+		right:30px;
+	}
+
 	#box_about{
   		max-width: 1010px;
   		margin: 0 auto; 
@@ -135,6 +157,40 @@ body{
 		margin: 0 auto;
 		padding:0 0 150px 0;
 		top:-25px;
+	}
+
+	#tittle_about_01{
+  		position:relative;
+  		max-width: 1010px;
+  		left: 200px; 
+		z-index: 2;
+		font-size:48px;
+		padding: 150px 0 10px 0;
+		
+	}
+	
+	#about_img_01{
+		position:relative;
+		width:700px;
+		height:300px;
+		background: url("../img/draft_book.jpg") no-repeat center center;*/
+		background-color:#cccccc;
+		margin: 0 0 0 0;
+		padding:0 0 0 0;
+		left:200px;
+	z-index: 0;
+	}
+
+	#about_text_01{
+		position:relative;
+		max-width:300px;
+		height:300px;
+		/*background: url("../img/teddy.png") no-repeat center center;
+		background-color:#cccccc;*/
+		padding:0 0 0 10px;
+		left:915px;
+		top:-300px;
+	z-index:0;
 	}
 	
 	#contactcont{
@@ -196,6 +252,13 @@ body{
 	.font{
 		color:#000000;
 		font-family: "Courier New", Courier, monospace;
+	}
+
+	.tittle{
+		font-size: 24px;
+		color:#000000;
+		font-family: "Courier New", Courier, monospace;
+		padding-bottom:16px;
 	}
 	
 	.imp{

@@ -109,6 +109,10 @@ body{
     /*display:none;*/
   }
 
+  .slides {
+    position:relative;
+  }
+
 	#aboutcont{
         /*
 		position:relative;
@@ -131,11 +135,11 @@ body{
 	z-index:99999;
 	}
 
-	#arrow_l{
+	.prev{
 		left:30px;
 	}
 
-	#arrow_r{
+	.next{
 		right:30px;
 	}
 

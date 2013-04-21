@@ -148,7 +148,7 @@ body{
   		margin: 0 auto; 
 		z-index: 2;
 		font-size:48px;
-		padding: 150px 100px 10px 100px;
+		padding: 100px 100px 10px 100px;
 		
 	}
 	
@@ -166,7 +166,7 @@ body{
 	#tittle_about_01{
   		position:relative;
   		max-width: 1010px;
-  		left: 200px; 
+  		left: 150px; 
 		z-index: 2;
 		font-size:48px;
 		padding: 150px 0 10px 0;
@@ -181,7 +181,7 @@ body{
 		background-color:#cccccc;
 		margin: 0 0 0 0;
 		padding:0 0 0 0;
-		left:200px;
+		left:150px;
 	z-index: 0;
 	}
 
@@ -192,7 +192,7 @@ body{
 		/*background: url("../img/teddy.png") no-repeat center center;
 		background-color:#cccccc;*/
 		padding:0 0 0 10px;
-		left:915px;
+		left:875px;
 		top:-300px;
 	z-index:0;
 	}

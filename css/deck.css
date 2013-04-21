@@ -64,10 +64,6 @@ body.deck-container {
   visibility: visible;
 }
 
-@media screen and (max-device-width: 480px) {
-  /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
-}
-
 .csstransitions.csstransforms {
   overflow-x: hidden;
 }
@@ -86,7 +82,6 @@ body.deck-container {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  padding: 0 48px;
 }
 .csstransitions.csstransforms .deck-container:not(.deck-menu) > .slide .slide {
   position: relative;

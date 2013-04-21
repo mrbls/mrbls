@@ -43,6 +43,10 @@ body{
     z-index:99999;
 	}
 
+  section {
+    min-height: 100%;
+  }
+
 	#home{ 
 		background: url("../img/bkg_11.jpg") no-repeat center center; 
 		-webkit-background-size: cover;
@@ -113,7 +117,7 @@ body{
     position:relative;
   }
 
-	#aboutcont{
+	#about-01{
         /*
 		position:relative;
         */
@@ -121,7 +125,7 @@ body{
 		z-index: 1;
 	}
 
-	#aboutcont_01{
+	#about-02{
         /*
 		position:relative;
         */
@@ -163,7 +167,7 @@ body{
 		top:-25px;
 	}
 
-	#tittle_about_01{
+	#tittle_about-02{
   		position:relative;
   		max-width: 1010px;
   		left: 150px; 
@@ -197,7 +201,7 @@ body{
 	z-index:0;
 	}
 	
-	#contactcont{
+	#contact{
         /*
 		position:relative;
         */
@@ -432,7 +436,7 @@ body{
     /*display:none;*/
   }
 
-	#aboutcont{
+	#about-01{
         /*
 		position:relative;
         */
@@ -460,7 +464,7 @@ body{
 		top:-25px;
 	}
 	
-	#contactcont{
+	#contact{
         /*
 		position:relative;
         */
@@ -690,7 +694,7 @@ body{
     /*display:none;*/
   }
 
-	#aboutcont{
+	#about-01{
         /*
 		position:relative;
         */
@@ -718,7 +722,7 @@ body{
 		top:-25px;
 	}
 	
-	#contactcont{
+	#contact{
         /*
 		position:relative;
         */
@@ -946,7 +950,7 @@ body{
     /*display:none;*/
   }
 
-	#aboutcont{
+	#about-01{
         /*
 		position:relative;
         */
@@ -974,7 +978,7 @@ body{
 		top:-25px;
 	}
 	
-	#contactcont{
+	#contact{
         /*
 		position:relative;
         */
